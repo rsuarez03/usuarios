@@ -52,4 +52,4 @@ jobs:
             sudo chmod 755 /var/lib/tomcat10/webapps/demo.war 
  
             # Reiniciar el servicio Tomcat para cargar el nuevo archivo .war.
-            sudo systemctl restart tomcat10  
+            sudo systemctl restart tomcat9
